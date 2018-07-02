@@ -1,11 +1,11 @@
 {
   "name": "@insidersbyte/eslint-config-react-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@insidersbyte/eslint-config-base": "^0.0.0",
-    "@insidersbyte/eslint-config-flow": "^0.0.0"
+    "@insidersbyte/eslint-config-base": "^1.0.0",
+    "@insidersbyte/eslint-config-flow": "^1.0.0"
   },
   "peerDependencies": {
     "eslint-config-airbnb": "^17.0.0",
