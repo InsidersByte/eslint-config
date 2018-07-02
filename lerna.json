@@ -1,0 +1,15 @@
+{
+  "lerna": "2.11.0",
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "init": {
+      "exact": true
+    }
+  },
+  "changelog": {
+    "repo": "insidersbyte/eslint-config"
+  }
+}
