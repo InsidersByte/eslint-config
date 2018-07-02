@@ -6,6 +6,8 @@ module.expots = {
   rules: {
     'flowtype/array-style-complex-type': [2, 'verbose'],
     'flowtype/array-style-simple-type': [2, 'verbose'],
+    'flowtype/boolean-style': [2, 'boolean'],
+    'flowtype/define-flow-type': 1,
     'flowtype/newline-after-flow-annotation': [2, 'always'],
     'flowtype/no-dupe-keys': 2,
     // TODO: Enable this?
@@ -17,7 +19,8 @@ module.expots = {
     'flowtype/no-unused-expressions': 2,
     // TODO: Enable this
     // "flowtype/no-weak-types: 2,
-    'flowtype/require-exact-type': [2, 'always'],
+    // TODO: Enable this
+    // 'flowtype/require-exact-type': [2, 'always'],
     // TODO: Enable this
     // "flowtype/require-parameter-type": 2,
     // TODO: Enable this
@@ -30,7 +33,7 @@ module.expots = {
       },
     ],
     // TODO: Enable this?
-    // "flowtype/require-parameter-type: 2,
+    // "flowtype/require-variable-type: 2,
   },
 
   settings: {

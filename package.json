@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@insidersbyte/eslint-config-node": "^0.0.0",
+    "@insidersbyte/eslint-config-node": "1.0.0",
     "babel-eslint": "8.2.5",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.0.0",
