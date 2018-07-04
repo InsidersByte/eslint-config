@@ -1,3 +1,5 @@
+// @noflow
+
 module.exports = {
   root: true,
 

@@ -8,6 +8,7 @@
     "@insidersbyte/eslint-config-flow": "^1.0.1"
   },
   "peerDependencies": {
+    "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-node": "^6.0.1"
   }

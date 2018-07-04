@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
-    "eslint-config-airbnb-base": "^13.0.0"
+    "eslint-plugin-eslint-comments": "^3.0.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-unicorn": "^4.0.3"
   }
 }

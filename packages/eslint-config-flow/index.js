@@ -1,7 +1,9 @@
-module.expots = {
-  plugins: ['flowtype'],
+// @noflow
 
+module.exports = {
   parser: 'babel-eslint',
+
+  plugins: ['flowtype'],
 
   rules: {
     'flowtype/array-style-complex-type': [2, 'verbose'],
