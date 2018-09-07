@@ -5,8 +5,8 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint-plugin-eslint-comments": "^3.0.1",
-    "eslint-plugin-jest": "^21.17.0",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-unicorn": "^4.0.3"
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-unicorn": "^6.0.1"
   }
 }
