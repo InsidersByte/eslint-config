@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
-    "eslint-plugin-flowtype": "^2.50.0"
+    "eslint-plugin-flowtype": "^3.0.0"
   }
 }

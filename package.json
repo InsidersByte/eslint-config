@@ -6,25 +6,25 @@
   "devDependencies": {
     "@insidersbyte/eslint-config-node": "1.1.0",
     "@insidersbyte/eslint-config-react-app": "1.1.0",
-    "babel-eslint": "9.0.0",
-    "eslint": "5.5.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.7.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "3.0.1",
+    "eslint-config-prettier": "3.1.0",
     "eslint-plugin-eslint-comments": "3.0.1",
-    "eslint-plugin-flowtype": "2.50.0",
+    "eslint-plugin-flowtype": "3.0.0",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jest": "21.22.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-jest": "21.25.1",
+    "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-node": "7.0.1",
-    "eslint-plugin-promise": "4.0.0",
+    "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-react": "7.11.1",
     "eslint-plugin-unicorn": "6.0.1",
-    "husky": "0.14.3",
-    "lerna": "3.3.0",
-    "lerna-changelog": "0.8.0",
-    "lint-staged": "7.2.2",
-    "prettier": "1.14.2"
+    "husky": "1.1.2",
+    "lerna": "3.4.3",
+    "lerna-changelog": "0.8.2",
+    "lint-staged": "7.3.0",
+    "prettier": "1.14.3"
   },
   "scripts": {
     "precommit": "lint-staged",
@@ -32,6 +32,11 @@
     "lint": "eslint --ignore-path .gitignore .",
     "publish": "tasks/publish.sh",
     "format": "prettier --write ./*.{js,json,md} ./**/*.{js,jsx,json,css}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,json,css}": [
